@@ -8,6 +8,9 @@
     "productName": "Tetris By Iwnas",
     "publish": [
       {
+        "icon": "icon-256x256.ico"
+      },
+      {
         "provider": "github"
       }
     ],
