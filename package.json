@@ -1,6 +1,6 @@
 {
   "name": "Tetris-By-Iwnas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tetris game desktop app",
   "main": "main.js",
   "build": {
