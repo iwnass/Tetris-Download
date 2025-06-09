@@ -1,0 +1,30 @@
+{
+  "name": "Tetris-By-Iwnas",
+  "version": "1.0.0",
+  "description": "Tetris game desktop app",
+  "main": "main.js",
+  "build": {
+    "appId": "com.iwnas.tetrisbyiwnas",
+    "productName": "Tetris By Iwnas",
+    "publish": [
+      {
+        "provider": "github"
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --publish always"
+  },
+  "devDependencies": {
+    "electron": "^30.5.1",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "electron-updater": "^6.6.2"
+  }
+}
