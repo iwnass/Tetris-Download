@@ -1,6 +1,6 @@
 {
   "name": "Tetris-By-Iwnas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tetris game desktop app",
   "main": "main.js",
   "build": {
@@ -9,7 +9,9 @@
     "icon": "icon-256x256.ico",
     "publish": [
       {
-        "provider": "github"
+        "provider": "github",
+        "owner": "iwnass",
+        "repo": "Tetris-Download"
       }
     ],
     "win": {
@@ -18,7 +20,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "dist": "dotenv electron-builder --publish always"
+    "dist": "electron-builder --publish always"
   },
   "devDependencies": {
     "electron": "^30.5.1",
