@@ -6,10 +6,8 @@
   "build": {
     "appId": "com.iwnas.tetrisbyiwnas",
     "productName": "Tetris By Iwnas",
+    "icon": "icon-256x256.ico",
     "publish": [
-      {
-        "icon": "icon-256x256.ico"
-      },
       {
         "provider": "github"
       }
